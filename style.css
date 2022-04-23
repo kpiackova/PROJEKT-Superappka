@@ -31,3 +31,127 @@ body {
 }
 
 /* ----- zde začni psát vlastní CSS ----- */
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 960px) {
+ul {
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding-left: 20px;
+}
+
+.menu a {
+	text-decoration: none;
+	padding: 20px;
+	
+}
+
+.menu li {
+	padding: 20px;
+}
+
+.menu li:hover {
+	background-color: #48418e;
+}
+
+.nazev {
+	pointer-events: none;
+	font-weight: 700;
+	
+}
+
+.menu a:hover {
+	color: white;
+}
+
+h1 {
+	font-weight: 400;
+	color: white;
+	font-size: 90px;
+	margin: 0;
+}
+
+.hero-text {
+	font-size: 36px;
+	font-weight: 300;
+	color: white;
+	line-height: 1.2;
+}
+
+.hero-text p {
+	padding-bottom: 20px;
+}
+
+.tlacitka a {
+	font-size: 20px;
+	color: white;
+	border: 1px solid white;
+	border-radius: 6px;
+	padding: 15px 20px;
+	text-decoration: none;
+	margin-right: 20px;
+}
+
+.tlacitka {
+	margin-bottom: 70px;
+}
+
+a:hover {
+	background-color:#48418e;
+}
+
+.sekce {
+	display: flex;
+}
+
+.prvni {
+	background-image: url(./images/pozadi.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	justify-content: space-between;
+	min-height: 450px;
+	align-items: flex-end;
+}
+
+.hero-vlevo {
+	padding-left: 40px;
+}
+
+.logo {
+	width: 60px;
+}
+
+h2 {
+	font-size: 20px;
+	font-weight: 700;
+	color:#48418e;
+}
+
+.sloupec {
+	text-align: center;
+	padding: 10px;
+	font-size: 18px;
+}
+
+.druha {
+	padding: 30px;
+}
+
+.paticka {
+	background-color: #48418e;
+	color: white;
+	text-align: center;
+	margin: 0;
+	padding: 5px;
+}
+
+}
